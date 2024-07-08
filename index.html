@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    
+
     <header class="Encabezado">
 
 
@@ -26,12 +26,15 @@
 
         <h1 class="Titulo">Encriptador de texto:</h1>
 
-        <input type="text" id="Solicitud">
+        <input type="text" id="Solicitud" pattern="[a-z]" placeholder="Por favor solo use letras minusculas y sin acentos." required>
 
             <button onclick="Encriptar();">Encriptar</button>
             <button onclick="Desencriptar();">Desencriptar</button>
+            <button onclick="CopiarTexto()">Copiar</button>
 
-                <p id="Parrafo">Texto Encriptado</p>
+                <p id="Parrafo">Por favor, ingrese un texto a encriptar o desencriptar.</p>
+
+        
             
     </main>
 
