@@ -18,29 +18,44 @@
 
     <header class="Encabezado">
 
-
+        <img class="Imagen" src="./Styles/Vector.png" alt="Imagen de el logo de Alura" onclick="location.href='https://www.aluracursos.com/'"></img>
 
     </header>
     
     <main class="Principal">
 
-        <h1 class="Titulo">Encriptador de texto:</h1>
+        <section class="Seccion">
+            
+            <input type="" id="Solicitud" pattern="[a-z]" placeholder="Ingrese su texto aquí" required>
 
-        <input type="text" id="Solicitud" pattern="[a-z]" placeholder="Por favor solo use letras minusculas y sin acentos." required>
+            <div class="botones">
 
-            <button onclick="Encriptar();">Encriptar</button>
-            <button onclick="Desencriptar();">Desencriptar</button>
-            <button onclick="CopiarTexto()">Copiar</button>
+                <button onclick="Encriptar();" class="Encriptar">Encriptar</button>
 
-                <p id="Parrafo">Por favor, ingrese un texto a encriptar o desencriptar.</p>
+                <button onclick="CopiarTexto()" class="Copiar">Copiar</button>
 
+                <button onclick="Desencriptar();" class="Desencriptar">Desencriptar</button>
+
+            </div>        
+
+                    <p id="Parrafo1">(Por favor use solo minúsculas sin acentos.)</p>
+
+        </section>
         
+            <div class="Derecha">
+
+                <img src="./Styles/Muñeco.png" alt="Dibujo en vectores de un señor explorando" class="Imagen2"></img>
+                    <h2 class="Nomensajes" id="Nomensajes">Ningún mensaje fue encontrado</h2>
+                    <p id="Parrafo">Ingrese el texto que desee encriptar o desencriptar</p>
+
+            </div>
             
     </main>
 
+
     <footer class="Sub">
 
-
+        <p>Creado por Luis Ángel</p>
 
     </footer>
 

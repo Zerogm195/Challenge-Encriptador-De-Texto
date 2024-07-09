@@ -20,6 +20,8 @@
 
         let p = document.getElementById("Parrafo");
 
+        let p2 = document.getElementById("Nomensajes");
+
         //Validar
 
         if (!validar(input)) {
@@ -33,11 +35,15 @@
         //p que seria "Parrafo" imprime el input del usuario
         //replace reemplaza la cadena
 
+
         p.innerHTML = "Su texto encriptado es: "+ input.replace(/e/g, "enter")
                                                        .replace(/i/g, "imes")
                                                        .replace(/a/g, "ai")
                                                        .replace(/o/g, "ober")
                                                        .replace(/u/g, "ufat");
+                                                       
+        p2.innerHTML = "¡Se encontró un mensaje!";
+        
 
     }
 
@@ -75,7 +81,7 @@
         let p = document.getElementById("Parrafo").innerHTML;
 
 
-        navigator.clipboard.writeText(p = p.replace("Su texto encriptado es: ", ""));
+        navigator.clipboard.writeText(p = p.replace("Su texto encriptado es:", ""));
 
 
     }
