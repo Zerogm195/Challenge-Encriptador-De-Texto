@@ -1,4 +1,4 @@
-<h1>Alura-challengeONE-Encriptador</h1>
+<h1>Alura / challenge ONE / Encriptador</h1>
 -Esta aplicación web permite encriptar y desencriptar texto. Ha sido desarrollada con tecnologías HTML, CSS y JavaScript. La función principal es procesar el texto siguiendo ciertas reglas específicas encriptando el texto. Forma parte del programa elaborado por Oracle Next Education (ONE) y es parte del primer Challenge propuesto por Alura Latam.
 
 <h3>Características</h3>
