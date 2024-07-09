@@ -17,6 +17,6 @@
 
 -La aplicación procesará el texto según las reglas establecidas.
 
--Enlace al proyecto
+<h2>Enlace al proyecto</h2>
 
 Puedes encontrar la aplicación desplegada en el siguiente enlace: Alura-challengeONE-Encriptador3.
