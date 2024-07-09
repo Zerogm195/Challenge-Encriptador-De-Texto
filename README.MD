@@ -15,7 +15,7 @@
 
 -Selecciona la opción de encriptar o desencriptar.
 
--La aplicación procesará el texto según las reglas establecidas.</p>
+-La aplicación procesará el texto según las reglas establecidas como lo es el uso de mayúsculas el cual esta restringido.</p>
 
 <h2>Enlace al proyecto</h2>
 
