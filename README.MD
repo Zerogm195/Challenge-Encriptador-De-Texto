@@ -19,4 +19,4 @@
 
 <h2>Enlace al proyecto</h2>
 
-Puedes encontrar la aplicación desplegada en el siguiente enlace: Alura-challengeONE-Encriptador3.
+Puedes encontrar la aplicación desplegada en el siguiente enlace: https://zerogm195.github.io/Challenge-Encriptador-De-Texto/
