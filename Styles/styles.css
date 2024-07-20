@@ -11,6 +11,8 @@
     --Color-quintario: #D8DFE8;
     --Color-sextario: #181818;
     --Color-septario: rgba(46, 46, 46, 0.133);
+    --Color-octario: #a636c2;
+    --Color-transparente: rgba(0, 0, 0, 0);
 
     
 }
@@ -19,6 +21,8 @@
 
     padding: 0%;
     margin: 0%;
+    scrollbar-width: none;
+
     
 }
 
@@ -38,6 +42,7 @@ body{
     align-items: center;
     padding: 0% 5%;
     justify-content: space-between;
+    
 
 }
 
@@ -56,26 +61,51 @@ body{
 
 #Solicitud{
 
-    text-align: center;
-    font-family: var(--Fuente-Inter);
-    padding: 50% 5%;
-    font-size: 1.5rem;
-    text-justify: distribute;
     background-color: var(--Color-septario);
-    border-radius: 30px;
     border: var(--Color-septario);
     color: var(--Color-primario);
+    font-family: var(--Fuente-Inter);
+    padding: 18% 5%;
+    font-size: 1.5rem;
+    text-justify: distribute;
+    border-radius: 30px;
+    scrollbar-width: none;
+    vertical-align: text-top;
+    padding-top: 5%;
     
+
+}
+
+textarea{
+
+    resize: none;
 
 }
 
 
 #Parrafo{
 
+    font-size: 1.65rem;
+    font-weight: 400;
+    font-family: var(--Fuente-Inter);
+    text-align: center;
+    color: var(--Color-primario);
+    background-color: var(--Color-transparente);
+    border:var(--Color-transparente);
+    outline: none;
+    overflow: hidden;
+
+}
+
+#Nomensajes2{
+
     font-size: 1.5rem;
     font-family: var(--Fuente-Inter);
     text-align: center;
-    
+    color: var(--Color-primario);
+    background-color: var(--Color-transparente);
+    border:var(--Color-transparente);
+
 }
 
 #Parrafo2{
@@ -105,6 +135,10 @@ body{
     color:var(--Color-primario);
     justify-content: center;
     box-sizing: content-box;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
 
 
 }
@@ -160,7 +194,7 @@ body{
 .Imagen{
 
     height: 3%;
-    width: 3%;
+    width: 2.25%;
     box-sizing: border-box;
     border-radius: 20px;
     margin: 2% 4% 0% 6%;
@@ -169,13 +203,32 @@ body{
 
 .Sub{
 
-    background-color: var(--Color-cuartario);
+    background-image: linear-gradient(to bottom,var(--Color-octario), #4329d8);
     padding: 3%;
     text-align: center;
     color: var(--Color-primario);
     font-family: var(--fuente-mont);
     font-weight: 400;
     font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.github{
+    
+   width: 3.5%;
+   padding: 0% 1.5%;
+   display: flex;
+
+}
+
+.discord{
+
+   width: 3.5%;
+   padding: 0% 0%;
+   display: flex;
 
 }
 
@@ -230,7 +283,7 @@ body{
 
     }
 
-    .Imagen2{
+    #Imagen2{
 
         display: none;
 
