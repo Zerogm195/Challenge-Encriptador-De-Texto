@@ -18,7 +18,7 @@
 
     <header class="Encabezado">
 
-        <img class="Imagen" src="./Styles/Vector.png" alt="Imagen de el logo de Alura" onclick="location.href='https://www.aluracursos.com/'"></img>
+        <img class="Imagen" src="./Styles/Vector.png" alt="Imagen de el logo de Alura" onclick="location.href='https://www.aluracursos.com/'">
 
     </header>
     
@@ -26,7 +26,7 @@
 
         <section class="Seccion">
             
-            <input type="" id="Solicitud" pattern="[a-z]" placeholder="Ingrese su texto aquí" required>
+            <textarea type="" id="Solicitud" placeholder="Ingrese su texto aquí"></textarea>
 
             <div class="botones">
 
@@ -44,9 +44,10 @@
         
             <div class="Derecha">
 
-                <img src="./Styles/Muñeco.png" alt="Dibujo en vectores de un señor explorando" class="Imagen2"></img>
+                <img src="./Styles/Muñeco.png" alt="Dibujo en vectores de un señor explorando" id="Imagen2">
                     <h2 class="Nomensajes" id="Nomensajes">Ningún mensaje fue encontrado</h2>
-                    <p id="Parrafo">Ingrese el texto que desee encriptar o desencriptar</p>
+                    <p id="Nomensajes2">Ingrese el texto que desee encriptar o desencriptar</p>
+                    <textarea readonly id="Parrafo" rows="10" cols="50" input="none"></textarea>
 
             </div>
             
@@ -56,6 +57,8 @@
     <footer class="Sub">
 
         <p>Creado por Luis Ángel</p>
+        <img onclick="location.href = 'https://github.com/Zerogm195'" src="./Imagenes/icons8-github-64.png" class="github">
+        <img onclick="location.href = 'https://discord.com/channels/@me/865337495310041158'" src="./Imagenes/icons8-discord-64.png" class="discord">
 
     </footer>
 
