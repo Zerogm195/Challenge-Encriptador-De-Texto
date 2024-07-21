@@ -266,7 +266,6 @@ textarea{
     #Solicitud{
 
         padding: 15% 5%;
-        width: 75%
 
     }
 
@@ -324,6 +323,7 @@ textarea{
     #Parrafo1{
 
         padding-bottom: 5%;
+        padding-left: 5%;
 
     }
    
