@@ -252,7 +252,7 @@ textarea{
     .Principal{
 
         flex-direction: column;
-        padding: 10%;
+        padding: 10% 57%;
 
     }
 
@@ -280,6 +280,8 @@ textarea{
     .Imagen{
 
         padding: 2% 0%;
+        width: 8%;
+        height: 3%;
 
     }
 
@@ -293,6 +295,34 @@ textarea{
 
         justify-content: center;
         padding: 2%;
+      
+
+    }
+
+    .Nomensajes{
+
+        padding-top: 30%;
+        font-size: 1.3rem;
+
+    }
+    
+    #Nomensajes2{
+
+        font-size: 1.2rem;
+
+    }
+
+    .Sub{
+
+        padding: 12% 12%;
+        width: 100%;
+
+
+    }
+
+    #Parrafo1{
+
+        padding-bottom: 5%;
 
     }
    
